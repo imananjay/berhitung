@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Berhitung</title>
+</head>
+<body align="center" bgcolor="cyan">
+		<button onclick="tambah()">Tambah</button>
+		<input type="number" name="hitung" id="bebas" min="0">
+		<button onclick="kurang()">Kurang</button>
+
+		<script>
+		function kurang(){
+			document.getElementById("bebas").stepDown();
+		}
+			
+		function tambah(){
+			document.getElementById("bebas").stepUp();
+		}
+		</script>
+</body>
+</html>
